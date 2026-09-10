@@ -1,7 +1,11 @@
-# HEPHRAY MVP preview (temporary)
+# HEPHRAY MVP public preview
 
-Public static preview of the HEPHRAY marketing MVP. **Not production.**
+Static snapshot of the HEPHRAY marketing site (not production).
+Canonical tags stay on https://hephray.com. Do not treat this host as hephray.com.
 
-- Production canonical: https://hephray.com
-- Private source: https://github.com/wangwei0722/HEPHRAY
-- No parent-brand identifiers. No analytics tracker.
+Preferred base (jsDelivr):
+
+- EN: https://cdn.jsdelivr.net/gh/wangwei0722/hephray-mvp-preview@main/en/index.html
+- ZH: https://cdn.jsdelivr.net/gh/wangwei0722/hephray-mvp-preview@main/zh/index.html
+
+All in-site `href`/`src` in this tree are rewritten to the same jsDelivr prefix so nav works when files are opened one-by-one.
